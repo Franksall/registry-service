@@ -1,0 +1,8 @@
+# Este archivo (src/test/resources/application.yml)
+# se usa SÓLO cuando se corren las pruebas (./gradlew test)
+
+spring:
+  # 1. Desactiva el Config Server (el error que estamos viendo)
+  cloud:
+    config:
+      enabled: false

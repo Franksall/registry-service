@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: registry-service
+  profiles:
+    active: dev
+  config:
+
+    import: "configserver:http://ms-config-server:8888"
